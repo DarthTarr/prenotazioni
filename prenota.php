@@ -9,8 +9,8 @@
  $dsn = 'mysql:host='.$host.';dbname='.$db;
 
  $pdo = new PDO($dsn, $user, $pass);
- $data_scelta = '2021-03-06';
- $fiscale = 'asdfghjklqwertyu';
+ $data_scelta = $_POST['data'];
+ $fiscale = $_POST['codice'];
  $sql = "INSERT INTO prenotazioni VALUES(null, :fiscale, :data_scelta)";
  $stmt = $pdo->prepare($sql);
 

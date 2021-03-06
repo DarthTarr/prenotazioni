@@ -1,0 +1,52 @@
+POST http://localhost:80/prenoitazioni/prenota.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=asdfghjklqwertyu&data=2021-03-21
+
+###
+
+POST http://localhost:80/prenoitazioni/prenot.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=asdfghjklqwertyu&data=2021-03-21
+
+<> 2021-03-06T125405.404.html
+
+###
+
+POST http://localhost:80/prenotazioni/prenot.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=asdfghjklqwertyu&data=2021-03-21
+
+<> 2021-03-06T125245.404.html
+
+###
+
+POST http://localhost:80/prenotazioni/prenota.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=asdfghjklqwertyu&data=2021-03-21
+
+<> 2021-03-06T125029.404.html
+
+###
+
+POST http://localhost:80/prenotazioni/prenota.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=asdfghjklqwertyu&data=2021-03-21
+
+<> 2021-03-06T125025.404.html
+
+###
+
+POST http://localhost:80/prenotazioni/prenota.php
+Content-Type: application/x-www-form-urlencoded
+
+codice=asdfghjklqwertyu&data_scelta=2021-03-21
+
+<> 2021-03-06T124915.404.html
+
+###
+
